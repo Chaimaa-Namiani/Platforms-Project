@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img {
+    display: block; 
+}
+.offscreen {
+    position: absolute;
+    left: -10000px; /*@platform will disappear */
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    background-image: linear-gradient(to top,  rgb(23, 55, 81) ,
+    rgb(41, 93, 136), rgb(180, 209, 231));
+}
+
+.hero {
+    border-bottom: 3px solid ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+.prgraph {
+      color: black ;
+      font-style: normal;
+      
+}
+h1 {
+    width: 99%;
+    font-weight: large;
+    text-shadow: 1px 1px 6px  rgb(64, 64, 86);
+    text-shadow: 2px 2px 5px rgb(24, 24, 42);
+    background-color:hsla(220, 84%, 24%, 0.402); 
+    padding: 1rem;
+    border-radius: 39px;
+    text-align: center;
+}
+.p-prgraph, legend {
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 150%;  
+}
+.pic-figure {
+    width: 36%;
+    padding: 20px;
+}
+.pic-figure img {
+    width: 350px;
+    height: auto;
+    border: 6px double  rgb(38, 34, 34);
+    border-radius: 10%;
+}
+form{
+    padding-left: 25px;
+    width: 97%;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+fieldset {
+    border: 2px solid  rgb(38, 34, 34);
+}
+.total{
+    padding-left: 14px;
+}
+legend {
+     padding-left:2px;
+ }
+.box {
+     padding-left: 20px;
+}
+.fieldsettwo {
+    width: 97%;
+    padding: 8px;
+    padding-left: 9px;
+}
+.msg {
+    padding-left: 10px;
+}
+
+
+   
+   
